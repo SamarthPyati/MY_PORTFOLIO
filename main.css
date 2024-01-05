@@ -239,6 +239,7 @@ main {
     transition: background-color 0.3s ease-in-out;
 }
 
+
 /* -------------------------- GET IN TOUCH -------------------------- */
 .get-in-touch {
     background-color: rgba(223, 166, 91, 0.7);
@@ -349,4 +350,101 @@ footer {
     margin-right: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+
+/* -------------------------- WORK.HTML -------------------------- */
+
+/* -------------------------- PROJECT DESCRIPTION -------------------------- */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project {
+    font-size: 20px;
+    background-color: #f8f8f8;
+    padding: 80px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    color: #333;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.project .main__header {
+    font-style: italic;
+    color: #cc9b1f;
+}
+
+.project h1 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.project-details {
+    margin-top: 15px;
+}
+
+.project-description {
+    color: #666;
+    line-height: 1.6;
+}
+
+.project-details p {
+    margin-bottom: 20px;
+}
+
+.project-details span {
+    font-weight: bold;
+    color: #555;
+}
+
+
+/* -------------------------- TECH STACK -------------------------- */
+.tech-stack {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.tech-stack-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.tech-item {
+    margin-right: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tech-logo {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.tech-item:hover {
+    transform: scale(1.1);
+}
+
+.tech-label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
 }
