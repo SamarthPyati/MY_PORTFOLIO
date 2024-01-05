@@ -1,0 +1,82 @@
+* {
+    font-family: 'Futura', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- HEADER AND NAVIGATION BAR --- */
+header {
+    background-color: rgba(242, 242, 211, 0.802);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header h1 {
+    padding-left: 50px;
+    background: linear-gradient(45deg, #d96a21, #cc9b1f, #dba205, #848611);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2em;
+}
+
+#main-header {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .links li {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 55px;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    color: burlywood;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar .links a:hover {
+    color: rgb(223, 166, 91);
+}
+
+/* --- WORK CONTENT --- */
+.work-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.work-item {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.work-item h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #cc9b1f;
+}
+
+.work-item p {
+    color: #555;
+}
