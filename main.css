@@ -329,6 +329,19 @@ footer {
     justify-content: center;
 }
 
+.footer-content .get-back-top {
+    text-decoration: none;
+    margin-right: 25px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.footer-content .get-back-top i {
+    color: burlywood;
+}
+
 .footer-links,
 .contact-info,
 .legal-links,
@@ -447,6 +460,8 @@ footer {
     justify-content: center;
     padding-top: 50px;
 }
+
+
 
 .tech-item {
     margin-right: 20px;
