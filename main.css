@@ -89,13 +89,14 @@ header h1 {
     text-align: center;
     padding: 30px;
     padding-bottom: 0px;
+    font-size: 1.5em;
     color: #cc9b1f;
 }
 
 
 /* -------------------------- ABOUT ME -------------------------- */
 .about-container {
-    background-color: rgba(223, 166, 91, 0.7);
+    background-color: rgba(239, 208, 169, 1);
     box-shadow: 0 0 20px rgba(223, 166, 91, 0.5);
     text-align: center;
     margin: 20px auto;
@@ -202,7 +203,7 @@ main {
 
 /* -------------------------- SKILLS SET TABLE -------------------------- */
 .skills {
-    background-color: rgba(223, 166, 91, 0.7);
+    background-color: rgba(239, 208, 169, 1);
     box-shadow: 0 0 20px rgba(223, 166, 91, 0.5);
     text-align: center;
     margin: 20px auto;
@@ -252,7 +253,7 @@ main {
 
 /* -------------------------- GET IN TOUCH -------------------------- */
 .get-in-touch {
-    background-color: rgba(223, 166, 91, 0.7);
+    background-color: rgba(239, 208, 169, 1);
     box-shadow: 0 0 20px rgba(223, 166, 91, 0.5);
     text-align: center;
     margin: 20px auto;
@@ -264,6 +265,11 @@ main {
     color: #896c22;
     text-decoration: underline;
     font-size: 1.5em;
+}
+
+.get-in-touch:hover {
+    box-shadow: 0 0 40px rgba(223, 166, 91, 1);
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 #contact-form {
@@ -311,6 +317,7 @@ main {
     background-color: burlywood;
     color: rgb(223, 166, 91);
 }
+
 
 
 
@@ -460,8 +467,6 @@ footer {
     justify-content: center;
     padding-top: 50px;
 }
-
-
 
 .tech-item {
     margin-right: 20px;
